@@ -719,7 +719,7 @@ footer{
   }
   
 }
-@media(max-width:358px){
+@media(max-width:500px){
   .header__img--wrapper{
     height: 50vw;
   }
