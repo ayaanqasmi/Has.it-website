@@ -25,22 +25,68 @@
         <ul class="nav__link--list">
           <li class="nav__link--wrapper">
             <a
-              href=""
+              target="_blank"
+              href="mailto:HAS.it.feedback@gmail.com"
               class="nav__link link__hover-effect link__hover-effect--black"
-              >Our Aims
+              >Give Feedback
             </a>
           </li>
           <li class="nav__link--wrapper">
             <a
-              href=""
+              target="_blank"
+              href="https://wa.me/00923361166077"
               class="nav__link link__hover-effect link__hover-effect--black"
               >Contact Us</a
             >
           </li>
+
           <li class="nav__link--wrapper">
-            <a href="" class="nav__link nav__link--primary">Shop Now</a>
+            <a
+              target="_blank"
+              href="https://www.daraz.pk/shop/has-it-1663579580"
+              class="nav__link nav__link--primary"
+              >Shop Now</a
+            >
           </li>
         </ul>
+        <button class="btn__menu" onclick="openmenu()">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close" onclick="closemenu()">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="menu__links">
+            <li class="menu__list">
+              <a
+                target="_blank"
+                href="mailto:HAS.it.feedback@gmail.com"
+                class="menu__link link__hover-effect link__hover-effect--white"
+                onclick="closemenu()"
+                >Give Feedback</a
+              >
+            </li>
+            <li class="menu__list">
+              <a
+                target="_blank"
+                href="https://wa.me/00923361166077"
+                class="menu__link link__hover-effect link__hover-effect--white"
+                onclick="closemenu()"
+                >Contact Us</a
+              >
+            </li>
+            <li class="menu__list">
+              <a
+                target="_blank"
+                href="https://www.daraz.pk/shop/has-it-1663579580"
+                class="no-cursor nav__button__link--primary"
+                onclick="closemenu()"
+                >Shop Now</a
+              >
+            </li>
+          </ul>
+        </div>
       </nav>
       <header>
         <div class="header__container">
@@ -56,7 +102,12 @@
               <span class="red">affordable</span> of prices.
             </p>
 
-            <a href="" class="header__btn">Check us out</a>
+            <a
+              target="_blank"
+              href="https://www.daraz.pk/shop/has-it-1663579580"
+              class="header__btn"
+              >Check us out</a
+            >
           </div>
           <figure class="header__img--wrapper">
             <img
@@ -218,7 +269,12 @@
                 All this, and more, at the best quality and prices only at
                 <span class="red">Has.It</span>
               </h2>
-              <a href="" class="product__btn">Shop Now</a>
+              <a
+                target="_blank"
+                href="https://www.daraz.pk/shop/has-it-1663579580"
+                class="product__btn"
+                >Shop Now</a
+              >
             </div>
           </div>
         </div>
@@ -226,7 +282,7 @@
       <section id="testimonials">
         <div class="container">
           <div class="row">
-            <h1 class=" testimonial__title">Testimonials:</h1>
+            <h1 class="testimonial__title">Testimonials:</h1>
             <h2 class="testimonial__subtext">
               <span class="red"
                 >We make sure all our customers are satisfied!
@@ -365,8 +421,49 @@
     </main>
     <footer>
       <div class="container">
-        <div class="row">
-          
+        <div class="row footer__wrapper">
+          <figure class="footer__logo--wrapper">
+            <img src="./Hasit__logo__red.jpg" alt="" class="footer__logo" />
+            <div class="logo__text">
+              <a href="#landing" class="footer__logo__title">Has.It</a>
+              <a href="" class="footer__logo__para">Living with the trend</a>
+            </div>
+          </figure>
+          <div class="footer__social--links">
+            <div class="footer__social--link facebook">
+              <a
+                target="_blank"
+                class="footer__anchor"
+                href="https://www.facebook.com/profile.php?id=100085439064837"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </div>
+            <div class="footer__social--link mail">
+              <a
+                target="_blank"
+                class="footer__anchor"
+                href="mailto:HAS.it.feedback@gmail.com"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+            <div class="footer__social--link insta">
+              <a
+                target="_blank"
+                class="footer__anchor"
+                href="https://instagram.com/has.it.pk?igshid=YmMyMTA2M2Y="
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+            <div class="footer__social--link whatsapp">
+              <a
+                target="_blank"
+                class="footer__anchor"
+                href="https://wa.me/00923361166077"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer__copyright">Founded 2022 Has.it</div>
         </div>
       </div>
     </footer>
