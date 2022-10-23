@@ -731,3 +731,8 @@ footer{
   }
   
 }
+@media(max-width:358px){
+  .header__img--wrapper{
+    height: 50vw;
+  }
+}
